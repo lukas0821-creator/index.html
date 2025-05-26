@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LB QUALITÉ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      text-align: left;
+    }
+
+    header img {
+      height: 80px;
+      margin-right: 1rem;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    nav {
+      background: #444;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="L.png" alt="Logo LB QUALITÉ">
+    <div class="header-text">
+      <h1>LB QUALITÉ</h1>
+      <p>Une expérience gastronomique accessible à tous</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#origine">Origine</a>
+    <a href="#mission">Mission</a>
+    <a href="#valeurs">Valeurs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Le reste de la page... -->
+
+</body>
+</html>
