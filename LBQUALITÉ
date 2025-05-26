@@ -1,83 +1,105 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>LB QUALITÉ</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      line-height: 1.6;
+      background-color: #fefefe;
       color: #333;
     }
-
     header {
-      background: #222;
-      color: #fff;
-      padding: 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      text-align: left;
+      background-color: #1c1c1c;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
     }
-
     header img {
       height: 80px;
+      vertical-align: middle;
       margin-right: 1rem;
     }
-
-    .header-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    header h1 {
+      display: inline-block;
+      font-size: 2rem;
+      margin: 0;
+      vertical-align: middle;
     }
-
     nav {
-      background: #444;
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
       padding: 1rem;
-      text-align: center;
     }
-
     nav a {
-      color: #fff;
-      margin: 0 1rem;
+      color: white;
+      margin: 0.5rem 1rem;
       text-decoration: none;
       font-weight: bold;
     }
-
+    nav a:hover {
+      text-decoration: underline;
+    }
     section {
+      max-width: 800px;
+      margin: auto;
       padding: 2rem;
     }
-
+    section h2 {
+      border-bottom: 2px solid #990000;
+      padding-bottom: 0.5rem;
+      color: #990000;
+    }
     footer {
-      background: #222;
-      color: #fff;
+      background-color: #1c1c1c;
+      color: white;
       text-align: center;
-      padding: 2rem;
+      padding: 2rem 1rem;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="L.png" alt="Logo LB QUALITÉ">
-    <div class="header-text">
-      <h1>LB QUALITÉ</h1>
-      <p>Une expérience gastronomique accessible à tous</p>
-    </div>
-  </header>
+<header>
+  <img src="logo.png" alt="Logo LB QUALITÉ" />
+  <h1>LB QUALITÉ</h1>
+</header>
 
-  <nav>
-    <a href="#origine">Origine</a>
-    <a href="#mission">Mission</a>
-    <a href="#valeurs">Valeurs</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<nav>
+  <a href="#origine">Origine</a>
+  <a href="#mission">Mission</a>
+  <a href="#valeurs">Valeurs</a>
+  <a href="#contact">Contact</a>
+</nav>
 
-  <!-- Le reste de la page... -->
+<section id="origine">
+  <h2>Origine</h2>
+  <p>Depuis mon plus jeune âge, la cuisine est ma passion, un véritable art que je pratique avec enthousiasme depuis mes 5 ans. L’art culinaire, pour moi, c’est avant tout la haute gastronomie, une expérience raffinée qui allie créativité et qualité. Avec LB QUALITÉ, je veux offrir à tous l’opportunité de savourer des plats gastronomiques d’exception à des prix accessibles, sans compromis sur la fraîcheur et la saveur. Ce restaurant est le fruit de ma passion et de mon désir de partager un moment convivial autour de plats qui racontent une histoire. Mon ambition est de créer un lieu où chacun peut vivre une expérience culinaire mémorable, simple et chaleureuse.</p>
+</section>
+
+<section id="mission">
+  <h2>Mission</h2>
+  <p>Ma mission pour le LB QUALITÉ est d’offrir une expérience culinaire inoubliable pour chacun, où chaque repas est une découverte du monde dans un cadre chic mais convivial. LB QUALITÉ se veut être un restaurent qui allie expérience gastronomique, pour que chacun puisse rester fidèle à des valeurs de qualité et de simplicité. Grâce à une approche novatrice, nous proposons une cuisine accessible, sans compromis sur la qualité des ingrédients et des saveurs.</p>
+</section>
+
+<section id="valeurs">
+  <h2>Valeurs</h2>
+  <p><strong>"Découvrez des saveurs du monde à petit prix, sans souci de vaisselle ni d’épicerie : nos soirées gastronomiques allient qualité et convivialité pour une expérience inoubliable, seul ou accompagné."</strong></p>
+  <p>Notre restaurant offre une variété de services et d’options pour répondre aux besoins d’une clientèle diverse, allant des repas rapides mais raffinés, aux expériences culinaires plus élaborées. Nous prônons une cuisine gastronomique accessible à tous, sans faire de compromis sur la qualité des produits, tout en cultivant un sens de la convivialité et de l'hospitalité propre à notre établissement.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Pour toute demande d'information, de réservation ou de collaboration, contactez-nous à : <a href="mailto:contact@lbqualite.fr">contact@lbqualite.fr</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 LB QUALITÉ. Tous droits réservés.</p>
+</footer>
 
 </body>
 </html>
